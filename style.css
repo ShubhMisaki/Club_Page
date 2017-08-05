@@ -1,6 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
-@import 'https://fonts.googleapis.com/css?family=Slabo+27px';
+@import 'https://fonts.googleapis.com/css?family=Mada';
 @import 'https://fonts.googleapis.com/css?family=Quicksand';
+@import 'https://fonts.googleapis.com/css?family=Maven+Pro';
 
 *{
 	margin:0;
@@ -14,7 +15,7 @@ body {
 	margin: 0;
 }
 h2 {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Mada', sans-serif;
 	font-size: 250%;
 	font-weight: 700;
 	text-align: center;
@@ -23,7 +24,7 @@ h2 {
 }
 
 h3 {
-	font-family: 'Slabo 27px', serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 175%;
 	line-height: 155%;
 	padding: 5% 0;
@@ -32,7 +33,7 @@ h3 {
 }
 
 p{
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: 'Maven Pro', sans-serif;
 	color: #ffffff;
 	font-size: 160%;
 	line-height: 150%;
@@ -151,6 +152,17 @@ nav ul li a:hover {
 	background-color: #e3e8ea;
 }
 
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    width: 80%;
+} 
+
 article {
 	float: left;
 	margin: 0 auto;
@@ -167,16 +179,16 @@ aside {
 	height: auto;
 }
  #pro_add2 {
- 	background-color: #c0392b;
+ 	background-color: #3498db;
  }
  #web_add {
- 	background-color: #c0392b;
+ 	background-color: #3498db;
  }
  #design_add {
- 	background-color: #c0392b;
+ 	background-color: #3498db;
  }
  #tech_add {
- 	background-color: #c0392b;
+ 	background-color: #3498db;
  }
  .inner-wrapper-2 {
  	float: left;
@@ -190,8 +202,8 @@ aside {
  }
 
  .one-third {
- 	width: 33.333333%;
- 	float: left;
+ 	width: 50%;
+ 	float: right;
  	text-align: center;
  	font-size: 63%;
  }
@@ -203,7 +215,7 @@ aside {
  	background-color: #2c3e50;
  }
  #college {
- 	background-color: #c0392b;
+ 	background-color: #3498db;
  }
 
 #smiley {
@@ -278,8 +290,12 @@ footer.second p {
 }
 
 .vapour {
-    animation: fadeIn 1.4s infinite alternate;
+    animation: fadeIn 1.2s infinite alternate;
 }
+.icons {
+	animation: fadeIn 2s;
+}
+
 
 @media screen and (max-width: 768px) {
 	h2{
@@ -332,6 +348,7 @@ footer.second p {
 		font-size: 100%;
 		padding: 0% 0 0% 0; 
 	}
+
 	article {
 		width: 100%;
 	}
